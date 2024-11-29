@@ -39,6 +39,8 @@ a{
 }
 
 button{
+    height: 5em;
+    width: 19em;
     border-radius: 5px;
 }
 
@@ -48,8 +50,8 @@ button:hover{
 }
 .projetos{
     background-color: var(--corPrincipal);
-    margin-left: 2%;
     width: 96%;
+    margin-left: 2%;
 }
 
 html{
@@ -63,16 +65,20 @@ html{
 .collumn{
     float: left;
     width: 40%;
+    height: 100%;
 }
   
 .projeto{
     box-shadow: 3px 6px 8px 1px rgba(0, 0, 0, 0.2);
     margin-left: 250px;
     width: 700px;
+    margin-top: 25px;
     height: 250px;
     display: flex;
     border-radius: 20px;
-    flex-direction: inherit;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgba(0, 0, 120, 0.2);
 }
 .content::after, .row::after {
     content: "";
