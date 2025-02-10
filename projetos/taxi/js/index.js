@@ -1,7 +1,7 @@
 function que() {
-    let total1 = document.getElementById("total").value;
-    let total2 = document.getElementById("total2").value;
-    let coisado1 = document.getElementById("coisado").value;
+    let total1 = document.getElementById(parseint("total")).value;
+    let total2 = document.getElementById(parseint("total2")).value;
+    let coisado1 = document.getElementById(parseint("coisado")).value;
     let combustivel = 6.50
 
     let km = (total1 && total2 / 1000);
