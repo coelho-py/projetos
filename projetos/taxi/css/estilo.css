@@ -20,7 +20,8 @@ body{
 .menu{
     display: flex;
     padding: 50px;
-    width: 420px;
+    width: 500px;
+    height: auto;
     margin-left: 20%;
     flex-direction: column;
 }
